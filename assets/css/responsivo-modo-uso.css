@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 700px) {
+    body{
+        background-color: #170D02;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  main {
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+}
+
+  .buttons a {
+    width: 300px;
+  }
+}
