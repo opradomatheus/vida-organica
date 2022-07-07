@@ -54,12 +54,16 @@ header .half-circle {
 h1 {
     margin-top: 80px;
     margin-bottom: 40px;
-    color: #FFF;
     text-align: center;
     font-size: 1.7em;
     font-weight: 500;
-
-    text-transform: uppercase;
+    font-family: 'Kanit' sans-serif;
+    color: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .txt-modo-uso {
@@ -70,7 +74,7 @@ h1 {
     font-family: arial,sans-serif;
     letter-spacing: 2px;
     line-height: 32px;
-    background-color: #442f29;
+    /* background-color: #442f29; */
     padding: 10px;
     color: #FFF;
     border-radius: 10px;
