@@ -106,3 +106,35 @@ footer p{
     color: #FFF;
     font-size: 0.8em;
 }
+
+
+.cidades {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 60vh;
+
+    gap: 10px;
+
+}
+
+.cidades a {
+    width: 250px;
+    height: 50px;
+    background-color: #442F29;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bxs-store-alt {
+    font-size: 20px;
+    margin-right: 5px;
+}

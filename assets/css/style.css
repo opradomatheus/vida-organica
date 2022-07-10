@@ -1,6 +1,6 @@
 body {
     background-color: #170D02;
-    min-height: 100vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -95,8 +95,6 @@ main {
     align-items: center;
 
     text-align: center;
-
-    background-color: red;
     color: white;
     font-size: 0.7em;
 }
@@ -107,6 +105,7 @@ main {
 
 main .p {   
     grid-area: last;
+    font-family: arial,sans-serif;
     justify-self: center;
     align-self:center;
     color: #FFFF;
@@ -114,7 +113,7 @@ main .p {
     font-size: 12px;
 }
 
-.bxl-whatsapp {
-    font-size: 24px;
+.bxs-store-alt {
+    font-size: 20px;
     margin-right: 5px;
 }
