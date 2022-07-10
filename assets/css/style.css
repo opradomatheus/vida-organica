@@ -81,20 +81,13 @@ main {
     -o-transition: 0.3s linear;
 }
 
-#valido {
-    width: 300px;
-    height: 50px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.valido {
 
+    margin-top: 20px;
     display:flex;
     justify-content: center;
     align-items: center;
 
-    text-align: center;
     color: white;
     font-size: 0.7em;
 }
