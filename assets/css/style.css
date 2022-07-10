@@ -99,10 +99,6 @@ main {
     font-size: 0.7em;
 }
 
-.valido:hover {
-    background-color: red;
-}
-
 main .p {   
     grid-area: last;
     font-family: arial,sans-serif;
