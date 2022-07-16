@@ -5,6 +5,7 @@ body{
     align-items: center;
 
     background-color: #170D02;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -57,7 +58,6 @@ h1 {
     text-align: center;
     font-size: 1.7em;
     font-weight: 500;
-    font-family: 'Kanit' sans-serif;
     color: #FFF;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -121,8 +121,9 @@ footer p{
 }
 
 .cidades a {
+    font-size: 1em;
     width: 250px;
-    height: 50px;
+    height: 60px;
     background-color: #442F29;
     text-decoration: none;
     color: white;
@@ -134,6 +135,17 @@ footer p{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cidades span {
+    font-size: 0.7em;
 }
 
 .bxs-store-alt {
