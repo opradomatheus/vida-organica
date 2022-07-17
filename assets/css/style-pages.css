@@ -22,13 +22,15 @@ header{
 
 header .logo {
     width: 90px;
+    position: absolute;
+    top: 2%;
     z-index: 1;
 }
 
 header .half-circle {
     position: absolute;
     width: 110px;
-    height: 75px;
+    height: 120px;
     background-color: #442f29;
     border-radius: 0 0 50% 50%;
     -webkit-border-radius: 0 0 50% 50%;
@@ -81,13 +83,13 @@ h1 {
 
 
 .txt-modo-uso {
-    margin: 20px;
+
     max-width: 90%;
     font-size: 1em;
     font-weight: 400;
     font-family: 'Mulish', 'sans-serif';
-    letter-spacing: 2px;
-    line-height: 32px;
+    letter-spacing: 1px;
+    line-height: 25px;
     padding: 10px;
     color: #FFF;
     border-radius: 10px;
@@ -166,4 +168,14 @@ footer p{
 .bxs-store-alt {
     font-size: 20px;
     margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #FFF;
 }
