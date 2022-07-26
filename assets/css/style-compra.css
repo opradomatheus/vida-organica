@@ -1,0 +1,77 @@
+.cidades {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 55vh;
+
+    gap: 10px;
+}
+
+
+.card-local {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.nome-local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 90%;
+    background-color: #442f29;
+    color: white;
+    height: 55px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+
+    font-size: 0.8em;
+}
+
+.nome-local span {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.img-local{
+    width: 90%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 25px;
+}
+
+.rotas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 90%;
+    background-color: #009400;
+    color: white;
+    height: 35px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
+
+.compra-footer {
+    height: 450px!important;
+}
