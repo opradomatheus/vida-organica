@@ -155,8 +155,6 @@ footer p{
 
     display: flex;  
     flex-direction: column;
-    gap: 10px;
-
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -164,6 +162,40 @@ footer p{
 .cidades span {
     font-size: 0.7em;
 }
+
+.cidades #img {
+    width: 280px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden; 
+}
+
+#rota{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: -5px;
+    padding: 0;
+    height: 35px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+    visibility: hidden; 
+}
+
+.bxs-map{
+    font-size: 1.3em;
+}
+
+
+.ativo{
+    visibility: visible;
+}
+
 
 .bxs-store-alt {
     font-size: 20px;
