@@ -81,6 +81,14 @@ main {
     -o-transition: 0.3s linear;
 }
 
+#olx {
+    background-color:#6D0AD6;
+}
+
+.img-olx{
+    width: 50px;
+}
+
 .valido {
 
     margin-top: 20px;
